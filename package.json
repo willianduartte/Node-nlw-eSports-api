@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/server.js",
-    "postinstall": "tsc && copyfiles -u 1 src/**/* build/ && copyfiles -u 1 prisma/**/* build/",
+    "postinstall": "tsc && copyfiles -u 1 src/**/* build/src/ && copyfiles -u 1 prisma/**/* build/prisma/",
     "dev": "nodemon src/server.ts"
   },
   "keywords": [],
